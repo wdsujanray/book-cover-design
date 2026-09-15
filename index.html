@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to School Book Cover Pop-up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="input-container">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Enter first name">
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Enter last name">
+
+        <button type="button" id="submitBTN">Create Book Cover</button>
+    </div>
+
+    <div id="bookModal" class="modal-overlay">
+        <div class="book-cover">
+            <button class="close-btn" id="closeModalBtn">&curren;</button>
+            
+            <div class="pencil-border"></div>
+            
+            <div class="cover-text">
+                <!-- Separate divs for the sticker shadow effect -->
+                <div class="title-word word-back">Back</div>
+                
+                <div class="ribbon-to">to</div>
+                
+                <div class="title-word word-school">School</div>
+                
+                <h2>My Name Is:</h2>
+                <div id="displayName" class="display-name">...</div>
+            </div>
+
+            <div class="decor-book"></div>
+        </div>
+    </div>
+
+<script src="custom.js"></script>
+</body>
+</html>
