@@ -39,5 +39,7 @@ Inspired by vibrant school supplies and classic 3D typography, this project demo
 This project is intentionally kept simple as a single-file application for easy deployment.
 
 ```text
-├── index.html       # Contains HTML structure, CSS styles, and JavaScript logic
+├── index.html       # Contains HTML structure
+├── style.css        # Contains CSS styles
+├── custom.js       # Contains JavaScript logic
 └── README.md        # Project documentation
